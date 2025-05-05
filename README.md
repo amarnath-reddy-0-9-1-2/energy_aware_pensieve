@@ -17,7 +17,7 @@ This project is an energy-aware extension of the Pensieve ABR (Adaptive Bitrate)
   - `tcpdump`
   - EnergyBox setup (external tool)
 
-## 🚀 How to Use
+##  How to Use
 
 ### 1. Train the Energy-Aware RL Model
 
