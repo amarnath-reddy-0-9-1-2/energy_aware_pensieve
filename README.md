@@ -74,16 +74,3 @@ python power_model/train.py
 ```
 
 This will train a regression model that predicts playback power consumption using video features and measured power traces.
-
-##  Output
-
-- Energy and QoE logs
-- Bitrate transition behavior
-- Total energy breakdown: Download + Playback
-- Model behavior across energy impact values (e.g., 0.05, 0.10, 0.20)
-
-##  Notes
-
-- Packet captures are essential for accurate download energy estimation.
-- Playback energy model must be trained per device to reflect actual power characteristics.
-- The energy-aware model shows smoother bitrate transitions and better energy-QoE trade-offs at higher energy penalties.
